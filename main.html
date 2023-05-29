@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list app</title>
+</head>
+<body>
+     <!-- NAZWA PROJEKTU (DO ZAIMPLEMENTOWANIA PÓŹNIEJ DODAWANIE PROJEKTÓW) -->
+     <header>
+        <h1>Project test</h1>
+    </header>
+    <div class="sections">
+        <!-- SEKCJA TODO -->
+        <section class="toDo">
+            <h3>To do</h3>
+            <ul id="toDoList">
+                <li>
+                    sth<button id="next">-></button><button id="del">X</button>
+                </li>
+            </ul>
+            <div class="inputs">
+                <div class="inputComponent">
+                    <input type="text" id="toDoMessage" placeholder="Write your chores">
+                    <button id="sendButton">Send</button>
+                </div>
+            </div>
+        </section>
+        <!-- SEKCJA IN PROGRESS -->
+        <section class="inProgress">
+            <h3>In progress</h3>
+            <ul id="inProgressList">
+                <li>sth</li>
+            </ul>
+        </section>
+        <!-- SEKCJA DONE -->
+        <section class="done">
+            <h3>Done</h3>
+            <ul id="doneList">
+                <li>sth</li>
+            </ul>
+        </section>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
